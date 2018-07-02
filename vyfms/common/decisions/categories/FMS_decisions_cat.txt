@@ -1,4 +1,4 @@
-fms_decisions = {
+fms_dec_cat = {
 
      icon = generic_prospect_for_resources
 }

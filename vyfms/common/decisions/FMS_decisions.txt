@@ -1,14 +1,19 @@
 #Just needing to swithc to observe mode.
 
-fms_decisions = {
+ fms_dec_cat = {
 
 	#Germany to Italy
 	fms_ger_to_ita = {
 
+		available = {
+
+			is_ai = no
+
+		}
+
 		visible = {
 
-		has_country_flag = GER
-		is_ai = no
+			is_ai = no
 
 		}
 
@@ -30,13 +35,19 @@ fms_decisions = {
 
 
 	}
+	#EoD GER to ITA
 
 	#Italy to Germany
-	fms_ger_to_ita = {
+	fms_ita_to_ger = {
+
+		available = {
+
+			is_ai = no
+
+		}
 
 		visible = {
 
-		has_country_flag = ITA
 		is_ai = no
 
 		}
@@ -57,7 +68,75 @@ fms_decisions = {
 
 		}
 
+	}
+	#EoD ITA to GER
+
+	#Hungary to Germany
+	fms_hun_to_ger = {
+
+		available = {
+
+			is_ai = no
+
+		}
+
+		visible = {
+
+		is_ai = no
+
+		}
+
+		fire_only_once = no
+
+		cost = 10
+
+		complete_effect = {
+
+			GER = { change_tag_from = HUN }
+			#change_tag_from = ROOT
+		}
+
+		ai_will_do = {
+
+			factor = 0
+
+		}
 
 	}
+	#EoD HUN to GER
+
+	#Hungary to Germany
+	fms_ger_to_hun = {
+
+		available = {
+
+			is_ai = no
+
+		}
+
+		visible = {
+
+		is_ai = no
+
+		}
+
+		fire_only_once = no
+
+		cost = 10
+
+		complete_effect = {
+
+			HUN = { change_tag_from = GER }
+			#change_tag_from = ROOT
+		}
+
+		ai_will_do = {
+
+			factor = 0
+
+		}
+
+	}
+	#EoD HUN to GER
 
 }
