@@ -2,42 +2,6 @@
 
  fms_dec_cat = {
 
-	#Germany to Italy
-	fms_ger_to_ita = {
-
-		available = {
-
-			is_ai = no
-
-		}
-
-		visible = {
-
-			is_ai = no
-			tag = GER
-
-		}
-
-		fire_only_once = no
-
-		cost = 10
-
-		complete_effect = {
-
-			ITA = { change_tag_from = GER }
-			#change_tag_from = ROOT
-		}
-
-		ai_will_do = {
-
-			factor = 0
-
-		}
-
-
-	}
-	#EoD GER to ITA
-
 	#Italy to Germany
 	fms_ita_to_ger = {
 
@@ -96,41 +60,6 @@
 		complete_effect = {
 
 			GER = { change_tag_from = HUN }
-			#change_tag_from = ROOT
-		}
-
-		ai_will_do = {
-
-			factor = 0
-
-		}
-
-	}
-	#EoD HUN to GER
-
-	#Hungary to Germany
-	fms_ger_to_hun = {
-
-		available = {
-
-			is_ai = no
-
-		}
-
-		visible = {
-
-		is_ai = no
-		tag = GER
-
-		}
-
-		fire_only_once = no
-
-		cost = 10
-
-		complete_effect = {
-
-			HUN = { change_tag_from = GER }
 			#change_tag_from = ROOT
 		}
 

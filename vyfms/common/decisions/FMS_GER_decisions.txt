@@ -1,0 +1,274 @@
+#Just needing to swithc to observe mode.
+# 1. Italy - ITA
+# 2. Hungary - HUN
+# 3. Slovakia - SLO
+# 4. Romania - ROM
+# 5. Bulgaria - BUL
+# 6. Yugoslavia - YUG
+# 7. Croatia - CRO
+
+
+ fms_dec_cat = {
+
+	###Germany to Italy
+	fms_ger_to_ita = {
+
+		available = {
+
+			is_ai = no
+      is_in_faction_with = ITA
+
+		}
+
+		visible = {
+
+			is_ai = no
+			tag = GER
+      country_exists = ITA
+
+		}
+
+		fire_only_once = no
+
+		cost = 1
+
+		complete_effect = {
+
+			ITA = { change_tag_from = GER }
+			#change_tag_from = ROOT
+		}
+
+		ai_will_do = {
+
+			factor = 0
+
+		}
+
+
+	}
+	###EoD GER to ITA
+
+	###Germany to Hungary
+	fms_ger_to_hun = {
+
+		available = {
+
+			is_ai = no
+      is_in_faction_with = HUN
+
+		}
+
+		visible = {
+
+		is_ai = no
+		tag = GER
+    country_exists = HUN
+
+		}
+
+		fire_only_once = no
+
+		cost = 1
+
+		complete_effect = {
+
+			HUN = { change_tag_from = GER }
+			#change_tag_from = ROOT
+		}
+
+		ai_will_do = {
+
+			factor = 0
+
+		}
+
+	}
+	#EoD HUN to GER
+
+  ###GER to SLO
+  fms_ger_to_SLO = {
+
+    available = {
+
+      is_ai = no
+      is_in_faction_with = SLO
+
+    }
+
+    visible = {
+
+    is_ai = no
+    tag = GER
+    country_exists = SLO
+
+    }
+
+    fire_only_once = no
+
+    cost = 1
+
+    complete_effect = {
+
+      SLO = { change_tag_from = GER }
+      #change_tag_from = ROOT
+    }
+
+    ai_will_do = {
+
+      factor = 0
+
+    }
+
+  }
+  #EoD GER TO SLO
+
+  ###GER to ROM
+  fms_ger_to_ROM = {
+
+    available = {
+
+      is_ai = no
+      is_in_faction_with = ROM
+
+    }
+
+    visible = {
+
+    is_ai = no
+    tag = GER
+    country_exists = ROM
+
+    }
+
+    fire_only_once = no
+
+    cost = 1
+
+    complete_effect = {
+
+      ROM = { change_tag_from = GER }
+      #change_tag_from = ROOT
+    }
+
+    ai_will_do = {
+
+      factor = 0
+
+    }
+
+  }
+  #EoD GER TO ROM
+
+  ###GER to BUL
+  fms_ger_to_BUL = {
+
+    available = {
+
+      is_ai = no
+      is_in_faction_with = BUL
+
+    }
+
+    visible = {
+
+    is_ai = no
+    tag = GER
+    country_exists = BUL
+
+    }
+
+    fire_only_once = no
+
+    cost = 1
+
+    complete_effect = {
+
+      BUL = { change_tag_BUL = GER }
+      #change_tag_fBUL = ROOT
+    }
+
+    ai_will_do = {
+
+      factor = 0
+
+    }
+
+  }
+  #EoD GER TO BUL
+
+  ###GER to YUG
+  fms_ger_to_YUG = {
+
+    available = {
+
+      is_ai = no
+      is_in_faction_with = YUG
+
+    }
+
+    visible = {
+
+    is_ai = no
+    tag = GER
+    country_exists = YUG
+
+    }
+
+    fire_only_once = no
+
+    cost = 1
+
+    complete_effect = {
+
+      YUG = { change_tag_YUG = GER }
+      #change_tag_fYUG = ROOT
+    }
+
+    ai_will_do = {
+
+      factor = 0
+
+    }
+
+  }
+  #EoD GER TO YUG
+
+  ###GER to CRO
+  fms_ger_to_CRO = {
+
+    available = {
+
+      is_ai = no
+      is_in_faction_with = CRO
+
+    }
+
+    visible = {
+
+    is_ai = no
+    tag = GER
+    country_exists = CRO
+
+    }
+
+    fire_only_once = no
+
+    cost = 1
+
+    complete_effect = {
+
+      CRO = { change_tag_CRO = GER }
+      #change_tag_fCRO = ROOT
+    }
+
+    ai_will_do = {
+
+      factor = 0
+
+    }
+
+  }
+  #EoD GER TO CRO
+
+}
+#End of Category
