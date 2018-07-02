@@ -14,6 +14,7 @@
 		visible = {
 
 			is_ai = no
+			tag = GER
 
 		}
 
@@ -49,6 +50,7 @@
 		visible = {
 
 		is_ai = no
+		tag = ITA
 
 		}
 
@@ -83,6 +85,7 @@
 		visible = {
 
 		is_ai = no
+		tag = HUN
 
 		}
 
@@ -117,6 +120,7 @@
 		visible = {
 
 		is_ai = no
+		tag = GER
 
 		}
 
@@ -139,4 +143,77 @@
 	}
 	#EoD HUN to GER
 
+	#Hungary to Italy
+		fms_hun_to_ITA = {
+
+			available = {
+
+				is_ai = no
+
+			}
+
+			visible = {
+
+			is_ai = no
+			tag = HUN
+
+			}
+
+			fire_only_once = no
+
+			cost = 10
+
+			complete_effect = {
+
+				ITA = { change_tag_from = HUN }
+				#change_tag_from = ROOT
+			}
+
+			ai_will_do = {
+
+				factor = 0
+
+			}
+
+		}
+		#EoD HUN to ITA
+
+		#Hungary to Italy
+		fms_ITA_to_hun = {
+
+			available = {
+
+				is_ai = no
+
+			}
+
+			visible = {
+
+			is_ai = no
+			tag = ITA
+
+			}
+
+			fire_only_once = no
+
+			cost = 10
+
+			complete_effect = {
+
+				HUN = { change_tag_from = ITA }
+				#change_tag_from = ROOT
+			}
+
+			ai_will_do = {
+
+				factor = 0
+
+			}
+
+		}
+		#EoD HUN to ITA
+
+	}
+
+#End of Category
 }
