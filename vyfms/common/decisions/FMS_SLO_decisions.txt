@@ -9,8 +9,8 @@
 
  fms_dec_cat = {
 
-	###GER to ITA
-	fms_GER_to_ITA = {
+	###SLO to ITA
+	fms_SLO_to_ITA = {
 
 		available = {
 
@@ -22,7 +22,7 @@
 		visible = {
 
 			is_ai = no
-			tag = GER
+			tag = SLO
       country_exists = ITA
 
 		}
@@ -33,7 +33,7 @@
 
 		complete_effect = {
 
-			ITA = { change_tag_from = GER }
+			ITA = { change_tag_from = SLO }
 
 		}
 
@@ -45,10 +45,10 @@
 
 
 	}
-	###EoD GER to ITA
+	###EoD SLO to ITA
 
-	###GER to HUN
-	fms_GER_to_HUN = {
+	###SLO to HUN
+	fms_SLO_to_HUN = {
 
 		available = {
 
@@ -60,7 +60,7 @@
 		visible = {
 
 		is_ai = no
-		tag = GER
+		tag = SLO
     country_exists = HUN
 
 		}
@@ -71,7 +71,7 @@
 
 		complete_effect = {
 
-			HUN = { change_tag_from = GER }
+			HUN = { change_tag_from = SLO }
 
 		}
 
@@ -82,23 +82,23 @@
 		}
 
 	}
-	#EoD HUN to GER
+	#EoD SLO to HUN
 
-  ###GER to SLO
-  fms_GER_to_SLO = {
+  ###SLO to GER
+  fms_SLO_to_GER = {
 
     available = {
 
       is_ai = no
-      is_in_faction_with = SLO
+      is_in_faction_with = GER
 
     }
 
     visible = {
 
     is_ai = no
-    tag = GER
-    country_exists = SLO
+    tag = SLO
+    country_exists = GER
 
     }
 
@@ -108,7 +108,7 @@
 
     complete_effect = {
 
-      SLO = { change_tag_from = GER }
+      GER = { change_tag_from = SLO }
 
     }
 
@@ -119,10 +119,10 @@
     }
 
   }
-  #EoD GER TO SLO
+  #EoD SLO TO GER
 
-  ###GER to ROM
-  fms_GER_to_ROM = {
+  ###SLO to ROM
+  fms_SLO_to_ROM = {
 
     available = {
 
@@ -134,7 +134,7 @@
     visible = {
 
     is_ai = no
-    tag = GER
+    tag = SLO
     country_exists = ROM
 
     }
@@ -145,7 +145,7 @@
 
     complete_effect = {
 
-      ROM = { change_tag_from = GER }
+      ROM = { change_tag_from = SLO }
 
     }
 
@@ -156,10 +156,10 @@
     }
 
   }
-  #EoD GER TO ROM
+  #EoD SLO TO ROM
 
-  ###GER to BUL
-  fms_GER_to_BUL = {
+  ###SLO to BUL
+  fms_SLO_to_BUL = {
 
     available = {
 
@@ -171,7 +171,7 @@
     visible = {
 
     is_ai = no
-    tag = GER
+    tag = SLO
     country_exists = BUL
 
     }
@@ -182,7 +182,7 @@
 
     complete_effect = {
 
-      BUL = { change_tag_from = GER }
+      BUL = { change_tag_from = SLO }
 
     }
 
@@ -193,10 +193,10 @@
     }
 
   }
-  #EoD GER TO BUL
+  #EoD SLO TO BUL
 
-  ###GER to YUG
-  fms_GER_to_YUG = {
+  ###SLO to YUG
+  fms_SLO_to_YUG = {
 
     available = {
 
@@ -208,7 +208,7 @@
     visible = {
 
     is_ai = no
-    tag = GER
+    tag = SLO
     country_exists = YUG
 
     }
@@ -219,7 +219,7 @@
 
     complete_effect = {
 
-      YUG = { change_tag_from = GER }
+      YUG = { change_tag_from = SLO }
 
     }
 
@@ -230,10 +230,10 @@
     }
 
   }
-  #EoD GER TO YUG
+  #EoD SLO TO YUG
 
-  ###GER to CRO
-  fms_GER_to_CRO = {
+  ###SLO to CRO
+  fms_SLO_to_CRO = {
 
     available = {
 
@@ -245,7 +245,7 @@
     visible = {
 
     is_ai = no
-    tag = GER
+    tag = SLO
     country_exists = CRO
 
     }
@@ -256,7 +256,7 @@
 
     complete_effect = {
 
-      CRO = { change_tag_from = GER }
+      CRO = { change_tag_from = SLO }
 
     }
 
@@ -267,7 +267,7 @@
     }
 
   }
-  #EoD GER TO CRO
+  #EoD SLO TO CRO
 
 }
 #End of Category
