@@ -94,3 +94,95 @@ fms_SLO_to_YUG_desc:0 "Switch from Slovakia to Yugoslavia"
 
 fms_SLO_to_CRO:0 "Switch from Slovakia to Croatia"
 fms_SLO_to_CRO_desc:0 "Switch from Slovakia to Croatia"
+
+###Romania
+
+fms_ROM_to_ITA:0 "Switch from Romania to Italy"
+fms_ROM_to_ITA_desc:0 "Switch from Romania to Italy"
+
+fms_ROM_to_HUN:0 "Switch from Romania to Hungary"
+fms_ROM_to_HUN_desc:0 "Switch from Romania to Hungary"
+
+fms_ROM_to_SLO:0 "Switch from Romania to Slovakia"
+fms_ROM_to_SLO_desc:0 "Switch from Romania to Slovakia"
+
+fms_ROM_to_GER:0 "Switch from Romania to Germany"
+fms_ROM_to_GER_desc:0 "Switch from Romania to Germany"
+
+fms_ROM_to_BUL:0 "Switch from Romania to Bulgaria"
+fms_ROM_to_BUL_desc:0 "Switch from Romania to Bulgaria"
+
+fms_ROM_to_YUG:0 "Switch from Romania to Yugoslavia"
+fms_ROM_to_YUG_desc:0 "Switch from Romania to Yugoslavia"
+
+fms_ROM_to_CRO:0 "Switch from Romania to Croatia"
+fms_ROM_to_CRO_desc:0 "Switch from Romania to Croatia"
+
+###Bulgaria
+
+fms_BUL_to_ITA:0 "Switch from Bulgaria to Italy"
+fms_BUL_to_ITA_desc:0 "Switch from Bulgaria to Italy"
+
+fms_BUL_to_HUN:0 "Switch from Bulgaria to Hungary"
+fms_BUL_to_HUN_desc:0 "Switch from Bulgaria to Hungary"
+
+fms_BUL_to_SLO:0 "Switch from Bulgaria to Slovakia"
+fms_BUL_to_SLO_desc:0 "Switch from Bulgaria to Slovakia"
+
+fms_BUL_to_GER:0 "Switch from Bulgaria to Germany"
+fms_BUL_to_GER_desc:0 "Switch from Bulgaria to Germany"
+
+fms_BUL_to_ROM:0 "Switch from Bulgaria to Romania"
+fms_BUL_to_ROM_desc:0 "Switch from Bulgaria to Romania"
+
+fms_BUL_to_YUG:0 "Switch from Bulgaria to Yugoslavia"
+fms_BUL_to_YUG_desc:0 "Switch from Bulgaria to Yugoslavia"
+
+fms_BUL_to_CRO:0 "Switch from Bulgaria to Croatia"
+fms_BUL_to_CRO_desc:0 "Switch from Bulgaria to Croatia"
+
+###Yugoslavia
+
+fms_YUG_to_ITA:0 "Switch from Yugoslavia to Italy"
+fms_YUG_to_ITA_desc:0 "Switch from Yugoslavia to Italy"
+
+fms_YUG_to_HUN:0 "Switch from Yugoslavia to Hungary"
+fms_YUG_to_HUN_desc:0 "Switch from Yugoslavia to Hungary"
+
+fms_YUG_to_SLO:0 "Switch from Yugoslavia to Slovakia"
+fms_YUG_to_SLO_desc:0 "Switch from Yugoslavia to Slovakia"
+
+fms_YUG_to_GER:0 "Switch from Yugoslavia to Germany"
+fms_YUG_to_GER_desc:0 "Switch from Yugoslavia to Germany"
+
+fms_YUG_to_ROM:0 "Switch from Yugoslavia to Romania"
+fms_YUG_to_ROM_desc:0 "Switch from Yugoslavia to Romania"
+
+fms_YUG_to_BUL:0 "Switch from Yugoslavia to Bulgaria"
+fms_YUG_to_BUL_desc:0 "Switch from Yugoslavia to Bulgaria"
+
+fms_YUG _to_CRO:0 "Switch from Yugoslavia to Croatia"
+fms_YUG _to_CRO_desc:0 "Switch from Yugoslavia to Croatia"
+
+###Croatia
+
+fms_CRO_to_ITA:0 "Switch from Croatia to Italy"
+fms_CRO_to_ITA_desc:0 "Switch from Croatia to Italy"
+
+fms_CRO_to_HUN:0 "Switch from Croatia to Hungary"
+fms_CRO_to_HUN_desc:0 "Switch from Croatia to Hungary"
+
+fms_CRO_to_SLO:0 "Switch from Croatia to Slovakia"
+fms_CRO_to_SLO_desc:0 "Switch from Croatia to Slovakia"
+
+fms_CRO_to_GER:0 "Switch from Croatia to Germany"
+fms_CRO_to_GER_desc:0 "Switch from Croatia to Germany"
+
+fms_CRO_to_ROM:0 "Switch from Croatia to Romania"
+fms_CRO_to_ROM_desc:0 "Switch from Croatia to Romania"
+
+fms_CRO_to_BUL:0 "Switch from Croatia to Bulgaria"
+fms_CRO_to_BUL_desc:0 "Switch from Croatia to Bulgaria"
+
+fms_CRO_to_CRO:0 "Switch from Croatia to Yugoslavia"
+fms_CRO_to_CRO_desc:0 "Switch from Croatia to Yugoslavia"

@@ -1,0 +1,272 @@
+# 1. Italy - ITA
+# 2. Hungary - HUN
+# 3. Slovakia - SLO
+# 4. Romania - ROM
+# 5. Bulgaria - BUL
+# 6. Yugoslavia - YUG
+# 7. Croatia - CRO
+
+fms_dec_cat = {
+
+	###YUG to ITA
+	fms_YUG_to_ITA = {
+
+		available = {
+
+			is_ai = no
+      is_in_faction_with = ITA
+
+		}
+
+		visible = {
+
+			is_ai = no
+			tag = YUG
+      country_exists = ITA
+
+		}
+
+		fire_only_once = no
+
+		cost = 1
+
+		complete_effect = {
+
+			ITA = { change_tag_from = YUG }
+
+		}
+
+		ai_will_do = {
+
+			factor = 0
+
+		}
+
+
+	}
+	###EoD YUG to ITA
+
+	###YUG to HUN
+	fms_YUG_to_HUN = {
+
+		available = {
+
+			is_ai = no
+      is_in_faction_with = HUN
+
+		}
+
+		visible = {
+
+		is_ai = no
+		tag = YUG
+    country_exists = HUN
+
+		}
+
+		fire_only_once = no
+
+		cost = 1
+
+		complete_effect = {
+
+			HUN = { change_tag_from = YUG }
+
+		}
+
+		ai_will_do = {
+
+			factor = 0
+
+		}
+
+	}
+	#EoD HUN to YUG
+
+  ###YUG to SLO
+  fms_YUG_to_SLO = {
+
+    available = {
+
+      is_ai = no
+      is_in_faction_with = SLO
+
+    }
+
+    visible = {
+
+    is_ai = no
+    tag = YUG
+    country_exists = SLO
+
+    }
+
+    fire_only_once = no
+
+    cost = 1
+
+    complete_effect = {
+
+      SLO = { change_tag_from = YUG }
+
+    }
+
+    ai_will_do = {
+
+      factor = 0
+
+    }
+
+  }
+  #EoD YUG TO SLO
+
+  ###YUG to ROM
+  fms_YUG_to_ROM = {
+
+    available = {
+
+      is_ai = no
+      is_in_faction_with = ROM
+
+    }
+
+    visible = {
+
+    is_ai = no
+    tag = YUG
+    country_exists = ROM
+
+    }
+
+    fire_only_once = no
+
+    cost = 1
+
+    complete_effect = {
+
+      ROM = { change_tag_from = YUG }
+
+    }
+
+    ai_will_do = {
+
+      factor = 0
+
+    }
+
+  }
+  #EoD YUG TO ROM
+
+  ###YUG to BUL
+  fms_YUG_to_BUL = {
+
+    available = {
+
+      is_ai = no
+      is_in_faction_with = BUL
+
+    }
+
+    visible = {
+
+    is_ai = no
+    tag = YUG
+    country_exists = BUL
+
+    }
+
+    fire_only_once = no
+
+    cost = 1
+
+    complete_effect = {
+
+      BUL = { change_tag_from = YUG }
+
+    }
+
+    ai_will_do = {
+
+      factor = 0
+
+    }
+
+  }
+  #EoD YUG TO BUL
+
+  ###YUG to GER
+  fms_YUG_to_YUG = {
+
+    available = {
+
+      is_ai = no
+      is_in_faction_with = GER
+
+    }
+
+    visible = {
+
+    is_ai = no
+    tag = YUG
+    country_exists = GER
+
+    }
+
+    fire_only_once = no
+
+    cost = 1
+
+    complete_effect = {
+
+      GER = { change_tag_from = YUG }
+
+    }
+
+    ai_will_do = {
+
+      factor = 0
+
+    }
+
+  }
+  #EoD GER TO YUG
+
+  ###YUG to CRO
+  fms_YUG_to_CRO = {
+
+    available = {
+
+      is_ai = no
+      is_in_faction_with = CRO
+
+    }
+
+    visible = {
+
+    is_ai = no
+    tag = YUG
+    country_exists = CRO
+
+    }
+
+    fire_only_once = no
+
+    cost = 1
+
+    complete_effect = {
+
+      CRO = { change_tag_from = YUG }
+
+    }
+
+    ai_will_do = {
+
+      factor = 0
+
+    }
+
+  }
+  #EoD YUG TO CRO
+
+}
+#End of Category
